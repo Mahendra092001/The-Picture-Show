@@ -8,17 +8,17 @@ if(a==1)
 {
 //b is the peaked color
 var b=Math.ceil(Math.random()*3);//R is 1 G is 2 B is 3
-if(b==1){R=Math.round(Math.random()*55)+200;G=Math.round(Math.random()*55);B=Math.round(Math.random()*55);}//red is peak
-else if(b==2){R=Math.round(Math.random()*55);G=Math.round(Math.random()*55)+200;B=Math.round(Math.random()*55);}//green is peak
-else{R=Math.round(Math.random()*55);G=Math.round(Math.random()*55);B=Math.round(Math.random()*55)+200;}//blue is peak
+if(b==1){R=Math.round(Math.random()*55)+200;G=Math.round(Math.random()*155);B=Math.round(Math.random()*155);}//red is peak
+else if(b==2){R=Math.round(Math.random()*155);G=Math.round(Math.random()*55)+200;B=Math.round(Math.random()*155);}//green is peak
+else{R=Math.round(Math.random()*155);G=Math.round(Math.random()*155);B=Math.round(Math.random()*55)+200;}//blue is peak
 }
-else 
+else 1
 {
 //b is the dip color
 var b=Math.ceil(Math.random()*3);//R is 1 G is 2 B is 3
-if(b==1){R=Math.round(Math.random()*55);G=Math.round(Math.random()*55)+200;B=Math.round(Math.random()*55)+200;}//red is dip
-else if(b==2){R=Math.round(Math.random()*55)+200;G=Math.round(Math.random()*55);B=Math.round(Math.random()*55)+200;}//green is dip
-else{R=Math.round(Math.random()*55)+200;G=Math.round(Math.random()*55)+200;B=Math.round(Math.random()*55);}//blue is dip
+if(b==1){R=Math.round(Math.random()*155);G=Math.round(Math.random()*55)+200;B=Math.round(Math.random()*55)+200;}//red is dip
+else if(b==2){R=Math.round(Math.random()*55)+200;G=Math.round(Math.random()*155);B=Math.round(Math.random()*55)+200;}//green is dip
+else{R=Math.round(Math.random()*55)+200;G=Math.round(Math.random()*55)+200;B=Math.round(Math.random()*155);}//blue is dip
 
 }
 document.getElementById("lw").style.background="rgb("+R+","+G+","+B+")";
