@@ -2,6 +2,6 @@
  "name": "picture-show",
   "version":"1.0.0",
  "script":{
-  "start":node "index.html"
+  "start":"node index.html"
  }
 }
