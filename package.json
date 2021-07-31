@@ -1,6 +1,6 @@
 {
  "name": "picture-show",
   "version":"1.0.0",
- "main":"app.js",
+"script":"node app.js"
  
 }
