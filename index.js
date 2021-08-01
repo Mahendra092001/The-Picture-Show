@@ -1,13 +1,22 @@
 const http = require('http');
 const port = process.env.PORT || 3000;
+fs = require('fs');
 
+fs.readFile('./Webpage1.html',function(err, html){
+  if(err){
+    throw err;
+  }
+  
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello Node!\n'
-  res.end(msg);
+ 
+  res.writeHeader(200,{"Content-Type":"text/html"});
+  res.write(html);
+  res.end();
 });
+
 
 server.listen(port, () => {
   console.log(`Server running on http://localhost:${port}/`);
 });
-© 2021 GitHub, Inc.
+});
