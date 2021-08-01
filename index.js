@@ -2,7 +2,7 @@ const http = require('http');
 const port = process.env.PORT || 3000;
 fs = require('fs');
 
-fs.readFile('./Webpage1.html',function(err, html){
+fs.readFile('./webpage1.html',function(err, html){
   if(err){
     throw err;
   }
