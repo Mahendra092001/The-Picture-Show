@@ -1,5 +1,5 @@
 {
-  "name": "node-hello",
+  "name": "The-Picture-Show",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnpapa/node-hello.git"
+    "url": "git+https://github.com/Mahendra092001/The-Picture-Show.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johnpapa/node-hello/issues"
+    "url": "https://github.com/Mahendra092001/The-Picture-Show/issues"
   },
-  "homepage": "https://github.com/johnpapa/node-hello#readme"
+  "homepage": "https://github.com/Mahendra092001/The-Picture-Show#readme"
 }
