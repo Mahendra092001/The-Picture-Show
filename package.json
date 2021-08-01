@@ -1,6 +1,10 @@
 {
  "name": "picture-show",
   "version":"1.0.0",
-"script":"node app.js"
+"main":"index.js",
+ "scripts":{
+  "start":"node index.js"
+ }
+ 
  
 }
